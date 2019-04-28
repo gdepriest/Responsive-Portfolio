@@ -1,0 +1,320 @@
+body {
+    background: url("../images/interlaced.png") repeat;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainheader {
+    border-bottom: 5px solid #111934;
+}
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    max-width: 100%;
+    height: 75px;
+    background-color: white;
+}
+
+.headerwrap {
+    max-width: 960px;
+    margin: 10px auto;
+}
+
+.namewrap {
+    background-color: #4aaaa5;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    font-size: 30px;
+}
+
+.toplinks {
+    float: right;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.active {
+    font-weight: 600
+}
+
+h1 {
+    padding-top: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.container {
+    background-color: white;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    max-width: 960px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 1px solid rgba(172, 166, 166, 0.507);
+    padding-bottom: 20px;
+    flex: 1;
+}
+form {
+    padding: 15px;
+}
+.title {
+    padding: 15px;
+    border-bottom: 2px solid rgba(172, 166, 166, 0.507);
+    width: 800px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #111934;
+}
+
+.contentwrap {
+    max-width: 800px;
+    margin: auto;
+}
+
+#profilepic {
+    float: left;
+    width: 30%;
+    height: 204.875px;
+    width: 227.5px;
+    margin: 0 10px 0px 0; 
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;    
+}
+
+.gridcontainer {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gridcontent {
+    height: 200px;
+    background-size: cover;
+    border-radius: 25px;
+    margin: 10px;
+    width: 30%;
+    float: left;
+}
+
+.gridcontent:link {
+    text-decoration: none;
+}
+
+.gridcontent:hover {
+    transform: scale(1.06);
+}
+
+#content1 {
+    background-image: url("../images/desert_unsplash.jpg");
+}
+
+#content2 {
+    background-image: url("../images/tv_unsplash.jpg");
+}
+#content3 {
+    background-image: url("../images/tile_unsplash.jpg");
+}
+
+#content4 {
+    background-image: url("../images/grlpwr_unsplash.jpg")
+}
+
+#content5 {
+    background-image: url("../images/green_unsplash.jpg")
+}
+
+#content6 {
+    background-image: url("../images/lipstick_unsplash.jpg")
+}
+
+#content7 {
+    background-image: url("../images/dontbe_unsplash.jpg");
+}
+
+#content8 {
+    background-image: url("../images/smoke_unsplash.jpg");
+}
+.h3wrap {
+    background-color: #4aaaa5;
+    width: 100%;
+    position: relative;
+    top: 135px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+form {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #111934;
+    line-height: 1.6;
+    max-width: 940px;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+input[type=submit] {
+    border-radius: 4px;
+    border: 3px solid #4aaaa5;
+    background-color: white;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+#message {
+    height: 150px;
+    width: 100%;
+}
+
+
+
+#block1 {
+    background-color: #4aaaa5;
+    height: 10px;
+}
+
+#block2 {
+    background-color: #111934;
+    height: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 980px;
+    }
+
+    .mainheader {
+        width: 980px;
+    }
+    .headerwrap {
+        width: 900px;
+    }
+    .container {
+        width: 700px;
+        margin-left: 40px;
+        padding: 0 15px 15px 15px;
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+
+    .headerwrap {
+        width: 710px;
+    }
+
+    .container {
+        width: 685px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 125px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        width: 640px;
+    }        
+    .mainheader {
+        width: 640px;
+        height: 120px;
+        border-bottom: 3px solid #999;
+    }
+    .headerwrap {
+        width: 640px;
+        height: 120px;
+    }
+    .namewrap {
+        width: 640px;
+        text-align: center;
+        height: 75px;
+        margin: 0;
+        /* position         : fixed; */
+    }
+    nav {
+        height: 25px;
+        width: 640px;
+        display: inline-block;
+        position: absolute;
+        top: 69px;
+        text-align: center;
+    }
+    .toplinks {
+        width: 640px;
+        
+    }
+    .container {
+        width: 560px;
+        margin-top: 150px;
+    }
+    .contentwrap {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #profilepic {
+        float: none;
+        width: 456px;
+        height: 410px;
+        margin-left: 52px;
+        margin-right: auto;
+    }
+    .gridcontent {
+        width: 75%;
+        margin-left: 60px;
+    }
+}
